@@ -1,0 +1,117 @@
+﻿<Window x:Class="QuanLyKho.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyKho"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="LoginWindow" Height="450" Width="330"
+        WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <materialDesign:Flipper Style="{StaticResource MaterialDesignCardFlipper}">
+            <materialDesign:Flipper.FrontContent>
+                <Grid
+      Height="450"
+      Width="350">
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+          Height="250" />
+                        <RowDefinition
+          Height="*" />
+                    </Grid.RowDefinitions>
+                    <materialDesign:ColorZone
+        Mode="Dark"
+        VerticalAlignment="Stretch" Margin="0 0 10 0">
+                        <materialDesign:PackIcon
+          Kind="AccountCircle"
+          Height="200"
+          Width="350"
+          VerticalAlignment="Center"
+          HorizontalAlignment="Center" />
+                    </materialDesign:ColorZone>
+                    <StackPanel
+        Grid.Row="1"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center" Margin="0 0 10 0">
+                        <TextBlock FontSize="25">Màn hình đăng nhập</TextBlock>
+                        <Button
+          Style="{StaticResource MaterialDesignFlatButton}"
+          Command="{x:Static materialDesign:Flipper.FlipCommand}"
+          Margin="0 4 0 0" FontSize="25" Height="50" Foreground="Red">Log In User</Button>
+                        <Button
+          Style="{StaticResource MaterialDesignFlatButton}"
+          Command="{x:Static materialDesign:Flipper.FlipCommand}"
+          Margin="0 4 0 0" FontSize="25" Height="50" Foreground="Red">Log In Admin</Button>
+                        <Button Name="btnThoat" Click="btnThoat_Click"
+          Style="{StaticResource MaterialDesignFlatButton}" Height="50">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Exit " FontSize="18"/>
+                                <materialDesign:PackIcon Kind="ExitToApp" Height="25" Width="25"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Flipper.FrontContent>
+
+            <materialDesign:Flipper.BackContent>
+                <Grid Height="450" Width="330">
+                    <Grid.RowDefinitions>
+                        <RowDefinition
+          Height="Auto" />
+                        <RowDefinition
+          Height="*" />
+                    </Grid.RowDefinitions>
+                    <materialDesign:ColorZone
+        Mode="Inverted"
+        Padding="6">
+                        <StackPanel
+          Orientation="Horizontal">
+                            <Button
+            Style="{StaticResource MaterialDesignToolForegroundButton}"
+            Command="{x:Static materialDesign:Flipper.FlipCommand}"
+            HorizontalAlignment="Left">
+                                <materialDesign:PackIcon
+              Kind="ArrowLeft"
+              HorizontalAlignment="Right" />
+                            </Button>
+                            <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Foreground="White" FontSize="20">Đăng nhập</TextBlock>
+                        </StackPanel>
+                    </materialDesign:ColorZone>
+                    <StackPanel
+        Grid.Row="1"
+        Margin="0 6 0 0"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Top"
+        Width="280">
+
+                        <TextBox Name="txtDangNhap"
+          materialDesign:HintAssist.Hint="Tên đăng nhập"
+          materialDesign:HintAssist.IsFloating="True"
+          Margin="0 12 0 0"/>
+
+                        <PasswordBox Name="txtPass"
+                            materialDesign:HintAssist.Hint="Mật khẩu" 
+                                     materialDesign:HintAssist.IsFloating="True"
+                                     Margin="0 12 0 0"/>
+                        <StackPanel
+          Grid.Row="2"
+          Orientation="Horizontal"
+          Margin="0 12 0 0"
+          HorizontalAlignment="Center">
+                            <Button Name="btnDangNhap" Style="{StaticResource MaterialDesignFlatButton}" Click="btnDangNhap_Click"
+                                    Content="Đăng Nhập" Foreground="#FFE86307"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </materialDesign:Flipper.BackContent>
+        </materialDesign:Flipper>
+    </Grid>
+</Window>
