@@ -46,3 +46,31 @@ C:\Users\phat\Downloads\Compressed\Wpf - Quan Ly Kho\QuanLyKho\QuanLyKho\obj\Deb
 C:\Users\phat\Downloads\Compressed\Wpf - Quan Ly Kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
 C:\Users\phat\Downloads\Compressed\Wpf - Quan Ly Kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.exe
 C:\Users\phat\Downloads\Compressed\Wpf - Quan Ly Kho\QuanLyKho\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.csprojAssemblyReference.cache
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\LoginWindow.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\MainWindow.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\ControlBarUC.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\App.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.cache
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho_MarkupCompile.lref
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.exe
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.pdb
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\QuanLyKho.exe.config
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\QuanLyKho.exe
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\QuanLyKho.pdb
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\MaterialDesignColors.dll
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\MaterialDesignColors.pdb
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\App.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\LoginWindow.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\MainWindow.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\ResourceXAML\MainResource.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\ControlBarUC.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.g.resources
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.Properties.Resources.resources
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.csproj.GenerateResource.cache
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.csproj.CoreCompileInputs.cache
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\QuanLyKho.csproj.CopyComplete
