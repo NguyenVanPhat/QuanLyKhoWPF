@@ -41,7 +41,7 @@
         Grid.Row="1"
         HorizontalAlignment="Center"
         VerticalAlignment="Center" Margin="0 0 10 0">
-                        <TextBlock FontSize="25">Màn hình đăng nhập</TextBlock>
+                        <TextBlock x:Name="txtManHinhDangNhap" FontSize="25" Text="Màn hình đăng nhập"></TextBlock>
                         <Button
           Style="{StaticResource MaterialDesignFlatButton}"
           Command="{x:Static materialDesign:Flipper.FlipCommand}"
@@ -69,6 +69,7 @@
                         <RowDefinition
           Height="*" />
                     </Grid.RowDefinitions>
+                    
                     <materialDesign:ColorZone
         Mode="Inverted"
         Padding="6">
@@ -85,6 +86,7 @@
                             <TextBlock Margin="8 0 0 0" VerticalAlignment="Center" Foreground="White" FontSize="20">Đăng nhập</TextBlock>
                         </StackPanel>
                     </materialDesign:ColorZone>
+                    
                     <StackPanel
         Grid.Row="1"
         Margin="0 6 0 0"

@@ -18,10 +18,10 @@ namespace QuanLyKho
     /// Interaction logic for LoginWindow.xaml
     /// </summary>
     public partial class LoginWindow : Window
-    {
+    {       
         public LoginWindow()
         {
-            InitializeComponent();
+            InitializeComponent();                        
         }
 
         private void btnThoat_Click(object sender, RoutedEventArgs e)
