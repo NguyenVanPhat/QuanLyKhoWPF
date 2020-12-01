@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\App.xaml
-4-1703325448
+111550651663
 
-10-1499744568
+181063514541
 171744056398
-LoginWindow.xaml;MainWindow.xaml;ResourceXAML\MainResource.xaml;UserControlQLK\ControlBarUC.xaml;
+LoginWindow.xaml;MainWindow.xaml;ResourceXAML\MainResource.xaml;UserControlQLK\ControlBarUC.xaml;UserControlQLK\Slide1_Intro.xaml;UserControlQLK\Slide2_Intro.xaml;UserControlQLK\Slide3_Intro.xaml;UserControlQLK\Slide4_CombineTransitions.xaml;UserControlQLK\Slide5_TransitioningContent.xaml;UserControlQLK\Slide6_Origins.xaml;UserControlQLK\Slide7_MVVM.xaml;
 
 False
 

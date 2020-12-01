@@ -75,6 +75,28 @@
     <Compile Include="UserControlQLK\ControlBarUC.xaml.cs">
       <DependentUpon>ControlBarUC.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlQLK\Domain\NotEmptyValidationRule.cs" />
+    <Compile Include="UserControlQLK\Slide1_Intro.xaml.cs">
+      <DependentUpon>Slide1_Intro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLK\Slide2_Intro.xaml.cs">
+      <DependentUpon>Slide2_Intro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLK\Slide3_Intro.xaml.cs">
+      <DependentUpon>Slide3_Intro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLK\Slide4_CombineTransitions.xaml.cs">
+      <DependentUpon>Slide4_CombineTransitions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLK\Slide5_TransitioningContent.xaml.cs">
+      <DependentUpon>Slide5_TransitioningContent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLK\Slide6_Origins.xaml.cs">
+      <DependentUpon>Slide6_Origins.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlQLK\Slide7_MVVM.xaml.cs">
+      <DependentUpon>Slide7_MVVM.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\BaseViewModel.cs" />
     <Compile Include="ViewModel\ControlBarViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
@@ -99,6 +121,34 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControlQLK\ControlBarUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide1_Intro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide2_Intro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide3_Intro.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide4_CombineTransitions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide5_TransitioningContent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide6_Origins.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlQLK\Slide7_MVVM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

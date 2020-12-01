@@ -77,3 +77,17 @@ D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\Microsoft.Expres
 D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\System.Windows.Interactivity.dll
 D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\Microsoft.Expression.Interactions.xml
 D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\bin\Debug\System.Windows.Interactivity.xml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide1_Intro.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide1_Intro.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide2_Intro.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide2_Intro.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide3_Intro.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide4_CombineTransitions.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide5_TransitioningContent.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide6_Origins.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide7_MVVM.g.cs
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide3_Intro.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide4_CombineTransitions.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide5_TransitioningContent.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide6_Origins.baml
+D:\Lap trinh\WPF - Quan Ly Kho\QuanLyKhoWPF\QuanLyKho\obj\Debug\UserControlQLK\Slide7_MVVM.baml

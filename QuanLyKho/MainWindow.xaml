@@ -25,6 +25,53 @@
 
         <Grid Grid.Row="0">
             <uc:ControlBarUC Tag="{Binding Title, ElementName=mainWindow}"></uc:ControlBarUC>
-        </Grid>        
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            
+            <materialDesign:Transitioner
+  SelectedIndex="0"
+  AutoApplyTransitionOrigins="True">
+                <!-- you can use a slide for each page, let's add a touch of fade for our first page  -->
+                <materialDesign:TransitionerSlide
+    OpeningEffect="{materialDesign:TransitionEffect FadeIn}">
+                    <uc:Slide1_Intro xmlns:local="clr-namespace:QuanLyKho.UserControlQLK" />
+                </materialDesign:TransitionerSlide>
+                <!-- but you can use bare xaml too -->
+                <uc:Slide2_Intro xmlns:local="clr-namespace:QuanLyKho.UserControlQLK" />
+                <!-- you can control (and create your own) wipes -->
+                <materialDesign:TransitionerSlide>
+                    <materialDesign:TransitionerSlide.BackwardWipe>
+                        <materialDesign:CircleWipe />
+                    </materialDesign:TransitionerSlide.BackwardWipe>
+                    <materialDesign:TransitionerSlide.ForwardWipe>
+                        <materialDesign:SlideWipe
+        Direction="Right" />
+                    </materialDesign:TransitionerSlide.ForwardWipe>
+                    <uc:Slide3_Intro xmlns:local="clr-namespace:QuanLyKho.UserControlQLK" />
+                </materialDesign:TransitionerSlide>
+                 
+                <materialDesign:TransitionerSlide
+    Background="{DynamicResource MaterialDesignDarkBackground}"
+    Foreground="{DynamicResource MaterialDesignDarkForeground}"
+    ClipToBounds="True">
+                    <materialDesign:TransitionerSlide.OpeningEffects>
+                        <materialDesign:TransitionEffect
+        Kind="SlideInFromLeft"
+        Duration="0:0:0.8" />
+                        <materialDesign:TransitionEffect
+        Kind="SlideInFromBottom"
+        Duration="0:0:0.8"
+        OffsetTime="0:0:0.15" />
+                    </materialDesign:TransitionerSlide.OpeningEffects>
+                    <uc:Slide4_CombineTransitions xmlns:local="clr-namespace:QuanLyKho.UserControlQLK"/>
+                </materialDesign:TransitionerSlide>
+                <uc:Slide5_TransitioningContent xmlns:local="clr-namespace:QuanLyKho.UserControlQLK"/>
+                <uc:Slide6_Origins xmlns:local="clr-namespace:QuanLyKho.UserControlQLK" />
+                <uc:Slide7_MVVM xmlns:local="clr-namespace:QuanLyKho.UserControlQLK" />
+            </materialDesign:Transitioner>
+            
+        </Grid>
+        
     </Grid>
 </Window>
